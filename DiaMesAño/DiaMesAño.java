@@ -25,7 +25,7 @@ public class DiaMesAño {
         //Mostramos el resultado al usuario
          // Resultado
         System.out.println(dias + " días equivalen a:");
-        System.out.println(anhos + " anhos, " + meses + " meses y " + diasRestantes + " días");
+        System.out.println(anhos + " anhos, " + meses + " meses y " + diasFinales + " días");
 
         teclado.close();
         
