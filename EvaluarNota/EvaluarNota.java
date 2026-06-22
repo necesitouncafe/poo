@@ -4,24 +4,24 @@ import java.util.Scanner;
 
 public class EvaluarNota {
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+public static void main(String[] args) {
+    Scanner teclado = new Scanner(System.in);
 
-        System.out.print("Introduce una nota (0 a 10): ");
-        double nota = sc.nextDouble();
+    System.out.print("Introduce una nota (0 a 10): ");
+    double nota = teclado.nextDouble();
 
-        if (nota < 0 || nota > 10) {
-            System.out.println("Nota no válida.");
+    if (nota < 0 || nota > 10) {
+        System.out.println("Nota no válida.");
         } else if (nota < 5) {
-            System.out.println("Insuficiente");
+        System.out.println("Insuficiente");
         } else if (nota < 7) {
-            System.out.println("Suficiente");
+        System.out.println("Suficiente");
         } else if (nota < 9) {
-            System.out.println("Notable");
+        System.out.println("Notable");
         } else {
-            System.out.println("Sobresaliente");
+        System.out.println("Sobresaliente");
         }
 
-        sc.close();
+        teclado.close();
     }
 }
