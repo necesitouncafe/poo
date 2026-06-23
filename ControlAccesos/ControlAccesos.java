@@ -13,8 +13,10 @@ public class ControlAccesos {
         //Leemos la respuesta del usuario y la convertimos a un valor booleano
         boolean tieneInvitacion = teclado.nextBoolean();
 
+        //Verificamos si el usuario es mayor de edad y tiene invitación para permitirle el acceso al guachiclub
         if (edad >= 18 && tieneInvitacion) {
             System.out.println("¡Bienvenid@ al guachiclub!");
+        //Si el usuario no cumple con los requisitos, le mostramos un mensaje de acceso denegado
         } else {
             System.out.println("Lo siento, acceso no permitido al guachiclub.");
         }
