@@ -33,7 +33,9 @@ public class ComparaNum {
                     System.out.println ("Los números son iguales");
                                 }
 
+                teclado.close();
 
-
+            
+                
             }
 }
